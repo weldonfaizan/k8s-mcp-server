@@ -47,7 +47,7 @@ Add it to your client's MCP server config, e.g.:
 }
 ```
 
-If your MCP client talks to Ollama (llama3.2), it will discover
+If your MCP client talks to LLM, it will discover
 `list_pods` and `restart_pod` as callable tools and can invoke them
 directly — no more manual `kubectl` needed.
 
